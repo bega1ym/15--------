@@ -1,0 +1,28 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  font-size: 14px;
+}
+h1 h2 h3 h5 {
+ font-family: "Martel", sans ;
+ font-weight: 700;
+}
+h1{
+  font-size: 58px;
+  font-weight: 900;
+}
+h2{
+  font-size: 40px;
+}
+h3{
+  font-size: 24px;
+}
+h5{
+  font-size: 24px;
+}
+h6{
+  font-size: 14px;
+}
