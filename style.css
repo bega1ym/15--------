@@ -5,10 +5,16 @@ body{
   font-family: "Open Sans", sans-serif;
   margin: 0;
   font-size: 14px;
+  color: #737373;
+  
+}
+.container{
+  max-width: 1045px;
 }
 h1 h2 h3 h5 {
  font-family: "Martel", sans ;
  font-weight: 700;
+ color: #FFFFFF;
 }
 h1{
   font-size: 58px;
@@ -26,3 +32,4 @@ h5{
 h6{
   font-size: 14px;
 }
+
