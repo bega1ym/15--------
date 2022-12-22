@@ -1,35 +1,77 @@
-*{
+* {
   box-sizing: border-box;
 }
-body{
+body {
   font-family: "Open Sans", sans-serif;
   margin: 0;
   font-size: 14px;
-  color: #737373;
-  
+  color: #ffffff;
+  background-image: url(./img/background.png);
 }
-.container{
+.container {
   max-width: 1045px;
 }
 h1 h2 h3 h5 {
- font-family: "Martel", sans ;
- font-weight: 700;
- color: #FFFFFF;
+  font-family: "Martel", sans;
+  font-weight: 700;
+  color:gray;
 }
-h1{
+h1 {
   font-size: 58px;
   font-weight: 900;
+
 }
-h2{
+h2 {
   font-size: 40px;
 }
-h3{
+h3 {
   font-size: 24px;
 }
-h5{
+h5 {
   font-size: 24px;
 }
-h6{
+h6 {
   font-size: 14px;
 }
+.container {
+  max-width: 987px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+  color: #ffffff;
+}
+.navbar a {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 15px;
+  border-radius: 5px;
+  margin: 7px;
+  font-size: 12px;
+}
+.navbar img{
 
+  margin-left: 22px;
+
+
+}
+.card h1{
+  justify-content: center;
+  color: #ffffff;
+  align-items: center;
+  margin-left:195px ;
+ 
+}
+.card p{
+  margin-left: 195px;
+}
+.card img{
+  margin-left: 915px;
+  margin-top: 90px;
+}
