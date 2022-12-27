@@ -88,48 +88,67 @@ h6 {
   text-align: center;
 }
 
-.filt{
-margin: 281px;
-margin-top: 50px;
-filter: blur(0, 0, 0, 0.5) #252B42;
-
+.filt {
+  margin: 281px;
+  margin-top: 50px;
+  filter: blur(0, 0, 0, 0.5) #252b42;
 }
-.cover{
+.cover {
   background-image: url(./cover.png);
+  width: 1440 px;
+  height: 821px;
 }
-.h5{
 
-
-}
-.h2{
+.h2 {
   width: 458px;
   height: 50px;
   left: 0px;
   top: 64px;
-  font-family: 'Martel';
+  font-family: "Martel";
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
-  line-height: 50px; 
+  line-height: 50px;
   text-align: center;
   letter-spacing: 0.2px;
 }
-.foterdiv{
-  background-color:#FAFAFA ;
+.foterdiv {
+  background-color: #fafafa;
   height: 142px;
   left: 0px;
   right: 0px;
   top: 681px;
   margin-top: -33px;
-} 
-.h3{
-  color: #252B42;
-
 }
-.p{
+.h3 {
+  color: #252b42;
+}
+.p {
   color: #737373;
   text-align: start;
   width: 250px;
   height: 20px;
   margin-top: -15px;
+}
+
+.col-6 {
+  flex-basis: 50%;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+.card {
+  box-shadow: 3px 3px 10px black;
+  background-color: rgb(126, 225, 238);
+  margin-bottom: 10px;
+  width: 328px;
+  height: 385px;
+  border-radius: 10%;
+
+}
+
+.row{
+  display: flex;
+  width: 328px;
+  height: 385px;
+  border-radius: 10%;
 }
