@@ -6,7 +6,7 @@ body {
   margin: 0;
   font-size: 14px;
   color: #ffffff;
-  background-image: url(./img/background.png);
+  background-color: #252b42;
 }
 .container {
   max-width: 1045px;
@@ -14,12 +14,11 @@ body {
 h1 h2 h3 h5 {
   font-family: "Martel", sans;
   font-weight: 700;
-  color:gray;
+  color: gray;
 }
 h1 {
   font-size: 58px;
   font-weight: 900;
-
 }
 h2 {
   font-size: 40px;
@@ -32,6 +31,10 @@ h5 {
 }
 h6 {
   font-size: 14px;
+}
+.header {
+  background-image: url(./img/background.png);
+  height: 823px;
 }
 .container {
   max-width: 987px;
@@ -55,23 +58,78 @@ h6 {
   margin: 7px;
   font-size: 12px;
 }
-.navbar img{
-
-  margin-left: 22px;
-
-
+.rd {
+  margin-left: 181px;
 }
-.card h1{
+.navbar img {
+  margin-left: 22px;
+}
+.carde h1 {
   justify-content: center;
   color: #ffffff;
   align-items: center;
-  margin-left:195px ;
- 
+  margin-left: 195px;
+  margin-top: 309px;
 }
-.card p{
+.carde p {
   margin-left: 195px;
 }
-.card img{
+.carde img {
   margin-left: 915px;
-  margin-top: 90px;
+  margin-top: -460px;
+}
+.main {
+  background-color: #252b42;
+}
+.main h2 {
+  text-align: center;
+}
+.main p {
+  text-align: center;
+}
+
+.filt{
+margin: 281px;
+margin-top: 50px;
+filter: blur(0, 0, 0, 0.5) #252B42;
+
+}
+.cover{
+  background-image: url(./cover.png);
+}
+.h5{
+
+
+}
+.h2{
+  width: 458px;
+  height: 50px;
+  left: 0px;
+  top: 64px;
+  font-family: 'Martel';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px; 
+  text-align: center;
+  letter-spacing: 0.2px;
+}
+.foterdiv{
+  background-color:#FAFAFA ;
+  height: 142px;
+  left: 0px;
+  right: 0px;
+  top: 681px;
+  margin-top: -33px;
+} 
+.h3{
+  color: #252B42;
+
+}
+.p{
+  color: #737373;
+  text-align: start;
+  width: 250px;
+  height: 20px;
+  margin-top: -15px;
 }
