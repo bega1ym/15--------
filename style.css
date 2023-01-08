@@ -173,11 +173,8 @@ h6 {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  flex-direction: column;
-  padding: 0px;
-  width: 328px;
-  height: 385px;
-  
+
+ 
   left: 0px;
   top: 0px;
  
@@ -187,4 +184,7 @@ section{
 width: 328px;
 top: 132px;
 border-radius: 11px;
-padding: 30px 50px 30px 50px;
+padding: 30px 50px 30px 50px;}
+ .who{
+  text-align: center;
+ }
