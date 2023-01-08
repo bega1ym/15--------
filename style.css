@@ -173,18 +173,58 @@ h6 {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-
- 
-  left: 0px;
-  top: 0px;
- 
 }
-section{
+section {
   height: 253px;
-width: 328px;
-top: 132px;
-border-radius: 11px;
-padding: 30px 50px 30px 50px;}
- .who{
+  width: 328px;
+  top: 132px;
+  border-radius: 11px;
+  padding: 30px 50px 30px 50px;
+}
+.who {
   text-align: center;
- }
+}
+
+.container-card-say {
+  display: flex;
+  color: #737373;
+  margin: 2rem;
+
+
+}
+.container-card-say .card-say div{
+  background-color: #ffffff;
+  display: inline-block;
+  flex-direction: row;
+  align-items: center;
+  padding: 30px 35px;
+  width: 327px;
+  height: 244px;
+
+
+  justify-content: space-evenly;
+
+
+   
+}
+
+.container-card-say .card-say div h6{
+  color: #737373;
+}
+
+.container-card-say .card-say div a{
+  color:#D0A144 ;
+  text-align: left;
+  text-decoration: none;
+  width:  88px;
+  height: 24px;
+}
+.container-card-say .card-say div .say{
+  margin-left: 35;
+  margin-top: -20px;
+  margin-bottom: 10px;
+  align-items: flex-start;
+  flex-direction: row; 
+   align-items: center;
+  padding: 30px 35px;
+}
