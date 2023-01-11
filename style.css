@@ -194,7 +194,7 @@ section {
 }
 .container-card-say .card-say div{
   background-color: #ffffff;
-  display: inline-flex;
+  display: inline-block;
   flex-direction: row;
   align-items: center;
   padding: 30px 35px;
@@ -227,9 +227,4 @@ section {
   flex-direction: row; 
    align-items: center;
   padding: 30px 35px;
-}
-.container-card-say .card-say div{
-
-  
-
 }
