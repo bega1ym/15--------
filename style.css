@@ -186,7 +186,7 @@ section {
 }
 
 .container-card-say {
-  display: flex;
+  display: inline-block;
   color: #737373;
   margin: 2rem;
 
@@ -196,13 +196,13 @@ section {
   background-color: #ffffff;
   display: inline-block;
   flex-direction: row;
-  align-items: center;
+  
   padding: 30px 35px;
   width: 327px;
   height: 244px;
 
 
-  justify-content: space-evenly;
+  
 
 
 
@@ -223,8 +223,17 @@ section {
   margin-left: 35;
   margin-top: -20px;
   margin-bottom: 10px;
-  align-items: flex-start;
-  flex-direction: row; 
+  
    align-items: center;
   padding: 30px 35px;
+}
+
+.container-card-who{
+  display: inline-block;
+}
+.container-card-who .card-who div{
+  background-color: #ffffff;
+}
+.container-card-who .card-who div h6 {
+  color: #737373;
 }
