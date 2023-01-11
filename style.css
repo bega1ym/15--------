@@ -233,6 +233,8 @@ section {
 }
 .container-card-who .card-who div{
   background-color: #ffffff;
+  margin-top: 142 px;
+  margin-left: 30 px;
 }
 .container-card-who .card-who div h6 {
   color: #737373;
